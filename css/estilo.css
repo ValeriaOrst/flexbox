@@ -41,6 +41,7 @@
 
 .content-left{
     display: flex;
+    flex-direction: column;
     flex: 2;
 }
 
@@ -50,10 +51,38 @@
 
 .content-botton{
     display: flex;
-    flex: 2;
+    flex: 1;
 }
 
 .article{
     flex: 1;
     display: flex;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.menu-horizontal {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.menu-horizontal li {
+    margin: 0 5px;
+}
+
+.menu-horizontal li a {
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    background-color: #444;
+    border-radius: 3px;
+}
+
+.menu-horizontal li a:hover {
+    background-color: #555;
 }
