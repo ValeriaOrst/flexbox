@@ -35,11 +35,24 @@
     flex: 1;
 }
 
+.menu{
+    flex: 1;
+}
+
 .content-left{
     display: flex;
     flex: 2;
 }
 
 .header{
+    flex: 1;
+}
+
+.content-botton{
+    display: flex;
+    flex: 2;
+}
+
+.article{
     flex: 1;
 }
