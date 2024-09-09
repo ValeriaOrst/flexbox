@@ -1,23 +1,26 @@
 .c1{
-    background-color: #777;
+    background-color: #AD1457;
 }
 
 .c2{
-    background-color: #888;
+    background-color: #F48FB1;
 }
 
 .c3{
-    background-color: #999;
+    background-color: #ec4079de;
 }
 
 .c4{
-    background-color: #aaa;
+    background-color: #C2185B;
 }
 
 .c5{
-    background-color: #bbb;
+    background-color: #FF4081;
 }
 
+body{
+    background-color: #FFF0F5;
+}
 .container{
     width: 900px;
     height: 400px;
@@ -36,7 +39,9 @@
 }
 
 .menu{
+    display: flex;
     flex: 1;
+    flex-direction: column;
 }
 
 .content-left{
@@ -67,7 +72,7 @@
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: #fff;
+    background-color: transparent;
     margin-bottom: 30px;
 }
 
@@ -90,3 +95,36 @@
 
 /* Página 02 */
 
+#cabecalho02{
+    width: 100%;
+    background-color: aqua;
+}
+
+#content-center{
+    flex: 3;
+}
+
+#menu02{
+    background-color: red;
+}
+
+.informacoes{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: purple;
+    color: #fff;
+}
+
+.ad{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: green;
+    color: #fff;    
+}
+
+.fonte-grande{
+    font-size: xx-large;
+    font-weight: bolder;
+}
