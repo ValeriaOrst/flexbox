@@ -188,3 +188,61 @@ body{
 .trasparente{
     background-color: transparent;
 }
+
+/*Pagina 04*/
+
+.contents{
+    display: flex;
+    flex: 6;
+    align-items: center;
+}
+
+
+.colun01{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #FF4081;
+    height: 20vh;
+}
+
+.colun02{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #C2185B;
+    height: 30vh;
+
+}
+
+.colun03{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #ec4079de;
+    height: 15vh;
+}
+
+.colun04{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #F48FB1;
+    height: 35vh;
+}
+
+.colun05{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #C2185B;
+    height: 50vh;
+}
+.colun06{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #AD1457;
+    height: 20vh;
+
+}
