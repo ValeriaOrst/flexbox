@@ -191,6 +191,9 @@ body{
 
 /*Pagina 04*/
 
+#container04{
+    box-shadow: none;
+}
 .contents{
     display: flex;
     flex: 6;
