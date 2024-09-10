@@ -194,6 +194,7 @@ body{
 #container04{
     box-shadow: none;
 }
+
 .contents{
     display: flex;
     flex: 6;
